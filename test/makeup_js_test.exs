@@ -41,7 +41,7 @@ defmodule MakeupJsTest do
     assert lex("1.440") == [{:number_float, %{}, "1.440"}]
 
     assert lex("1_050.95") == [
-             {:number_float, %{},  "1_050.95"}
+             {:number_float, %{}, "1_050.95"}
            ]
   end
 
